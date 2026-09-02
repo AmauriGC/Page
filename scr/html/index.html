@@ -1,12 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
-<script src="/scr/js/index.js"></script>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div>
+      <div
+        class="d-flex justify-content-between align-items-center p-3 border-bottom"
+      >
+        <h1 class="font-weight-bold">Brand</h1>
+        <div class="d-flex gap-3">
+          <a href="#" class="nav-link">Inicio</a>
+          <a href="#" class="nav-link">Productos</a>
+          <a href="#" class="nav-link">Nosotros</a>
+        </div>
+        <img
+          src="../assets/icons/shopping-cart.svg"
+          alt="Carrito de compras"
+          id="carrito"
+          onclick="mostrarCarrito()"
+        />
+      </div>
+
+      <div>
+        <h1 class="font-weight-bold mt-4">Nuestros productos</h1>
+        <div>
+          <input
+            type="text"
+            name="Buscador"
+            id="buscar"
+            placeholder="Buscar productos..."
+          />
+          <button type="button">Filtrar</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <img
+            src="../assets/img/audifonos.jpg"
+            alt="Audifonos"
+            width="300"
+            height="300"
+          />
+          <div>
+            <h4>Audifonos Inalambricos</h4>
+            <p>$59.99</p>
+            <img src="../assets/icons/star.svg" alt="Estrellitas" />
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../assets/img/audifonos.jpg"
+            alt="Audifonos"
+            width="300"
+            height="300"
+          />
+          <div>
+            <h4>Audifonos Inalambricos</h4>
+            <p>$59.99</p>
+            <img src="../assets/icons/star.svg" alt="Estrellitas" />
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../assets/img/audifonos.jpg"
+            alt="Audifonos"
+            width="300"
+            height="300"
+          />
+          <div>
+            <h4>Audifonos Inalambricos</h4>
+            <p>$59.99</p>
+            <img src="../assets/icons/star.svg" alt="Estrellitas" />
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../assets/img/audifonos.jpg"
+            alt="Audifonos"
+            width="300"
+            height="300"
+          />
+          <div>
+            <h4>Audifonos Inalambricos</h4>
+            <p>$59.99</p>
+            <img src="../assets/icons/star.svg" alt="Estrellitas" />
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/index.js"></script>
+  </body>
 </html>
